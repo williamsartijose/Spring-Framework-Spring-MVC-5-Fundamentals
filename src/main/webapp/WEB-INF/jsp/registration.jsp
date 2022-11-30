@@ -20,7 +20,7 @@
                 Name:
             </td>
             <td>
-                <from:input path="name"/>
+                <from:input path="name" />
             </td>
         </tr>
         <tr>
