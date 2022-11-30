@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="from" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
     <title>Title</title>
@@ -17,7 +18,7 @@
     <table>
         <tr>
             <td>
-                Name:
+               <spring:message code="name"/>:
             </td>
             <td>
                 <from:input path="name" />
